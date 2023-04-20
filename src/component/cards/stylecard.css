@@ -12,7 +12,7 @@
 .card {
     border: 1px solid rgb(240, 233, 233);
     width: 350px;
-    height: 500px;
+    height: 450px;
     border-radius: 15px;
     background: #FFFFFF;
 }
@@ -20,8 +20,8 @@
 .card:hover {
     transition: 1s ease all;
     background: #9094EB;
-    width: 400px;
-    height: 550px;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
     color: #FFFFFF;
 }
 
@@ -79,7 +79,13 @@
     .card {
         margin-bottom: 20px;
     }
+
+    .btn:hover {
+        height: 30px;
+        cursor: pointer;
+    }
 }
+
 @media (max-width: 450px) {
     .container-cards {
         flex-direction: column;
@@ -88,6 +94,14 @@
     .card {
         margin-bottom: 20px;
     }
+    .card:hover {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .btn:hover {
+        cursor: pointer;
+    }
+
 }
 
 @media (max-width: 1000px) {
@@ -101,4 +115,9 @@
         width: 205px;
         height: 30px;
     }
+
+    .btn:hover {
+        cursor: pointer;
+    }
+
 }

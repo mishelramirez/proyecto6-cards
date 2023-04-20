@@ -1,8 +1,13 @@
-import Card from "./component/Cards"
+import Card from "../src/component/cards/Cards";
+import "bootstrap";
+import Check from "./component/checkbox/Check"
+
+
 
 function App() {
   return <div className="container">
     <p className="title1">Our Pricing</p>
+    <Check/>
     <div className="container-cards">
       <Card
         title="Basic"

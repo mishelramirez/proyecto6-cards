@@ -1,5 +1,7 @@
 import React from "react";
-import style from "../component/stylecard.css"
+import style from "../../component/cards/stylecard.css"
+
+
 
 function Card(props) {
     return(

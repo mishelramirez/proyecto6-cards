@@ -1,0 +1,46 @@
+.container-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.anual{
+    padding-right: 30px;
+}
+.mes{
+    padding-left: 30px;
+}
+.lbl {
+    width: 60px;
+    display: inline-block;
+    height: 33px;
+    background: #9094EB;
+    border-radius: 100px;
+    cursor: pointer;
+    position: relative;
+}
+
+.lbl::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: .2s;
+}
+
+#switch:checked+.lbl::after {
+    left: 30px;
+}
+
+#switch:checked+.lbl {
+
+    background: #a7a9e0;
+}
+#switch{
+    display: none;
+}
