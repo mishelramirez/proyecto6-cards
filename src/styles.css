@@ -12,6 +12,11 @@
   padding: 0;
   font-family: sans-serif;
 }
+.container{
+  background-image: url(./assets/bg-top.svg);
+background-repeat: no-repeat;
+}
+
 .title1{
   font-size: 30px;
 font-weight: 600;

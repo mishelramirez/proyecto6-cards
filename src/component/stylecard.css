@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid rgb(240, 233, 233);
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    background: #FFFFFF;
+}
+
+.card:hover {
+    transition: 1s ease all;
+    background: #9094EB;
+    width: 400px;
+    height: 550px;
+    color: #FFFFFF;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(240, 233, 233);
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.storage,
+.allowed,
+.send {
+    font-size: 20px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid rgb(240, 233, 233);
+    margin-top: 15px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 282px;
+    height: 40px;
+    border-radius: 8px;
+    background: #9094EB;
+    color: aliceblue;
+    border: none;
+}
+
+.btn:hover {
+    width: 282px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    color: #9094EB;
+    cursor: pointer;
+}
