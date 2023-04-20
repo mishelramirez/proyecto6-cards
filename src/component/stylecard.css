@@ -70,3 +70,35 @@
     color: #9094EB;
     cursor: pointer;
 }
+
+@media (max-width: 390px) {
+    .container-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .container-cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 250px;
+        height: 400px;
+    }
+
+    .btn {
+        margin-top: 15px;
+        width: 205px;
+        height: 30px;
+    }
+}
