@@ -15,6 +15,7 @@
     height: 450px;
     border-radius: 15px;
     background: #FFFFFF;
+    margin-right: 10px;
 }
 
 .card:hover {
@@ -77,7 +78,7 @@
     }
 
     .card {
-        margin-bottom: 20px;
+        margin-bottom: 30px !important;
     }
 
     .btn:hover {
@@ -86,13 +87,13 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
     .container-cards {
         flex-direction: column;
     }
 
     .card {
-        margin-bottom: 20px;
+        margin-bottom: 30px !important;
     }
     .card:hover {
         margin-top: 20px;
@@ -106,8 +107,9 @@
 
 @media (max-width: 1000px) {
     .card {
-        width: 250px;
-        height: 400px;
+        width: auto;
+        margin: 0;
+        margin-right: 10px;
     }
 
     .btn {
